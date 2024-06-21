@@ -5,8 +5,6 @@ public class Main {
     static final BizzFuzzer myBizzFuzzer = new BizzFuzzer("Boop", "Schnoop", 2, 3);
 
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
 
         System.out.println("FizzBuzz output");
         for (int i = 0; i < 19; i++) {
