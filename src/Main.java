@@ -8,5 +8,10 @@ public class Main {
 
         System.out.println(myFizzBuzzer.next());
         System.out.println(myFizzBuzzer.next());
+        System.out.println(myFizzBuzzer.next());
+
+        myFizzBuzzer.reset();
+        System.out.println(myFizzBuzzer.next());
+        System.out.println(myFizzBuzzer.next());
     }
 }

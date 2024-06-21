@@ -8,4 +8,8 @@ public class FizzBuzzer {
     public int next(){
         return this.sequenceNumber++;
     }
+
+    public void reset(){
+        this.sequenceNumber = 1;
+    }
 }
